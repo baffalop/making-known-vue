@@ -1,16 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: https://ogp.me/ns#">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Vue + TS</title>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="An audio guide by Benny Nemer" />
+    <meta name="theme-color" content="#302d2c" />
+
+    <meta name="og:title" content="The Making Known" />
+    <meta property="og:type" content="music.playlist" />
+    <meta name="og:description" content="An audio guide by Benny Nemer, narrating an encounter with the Tetlie Collection of WWII Propaganda Posters at the Flaten Art Museum." />
+    <meta property="og:url" content="https://the-making-known.com" />
+    <meta property="og:image" content="https://the-making-known.com/preview.jpeg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:title" content="The Making Known">
+    <meta name="twitter:description" content="An audio guide by Benny Nemer, narrating an encounter with the Tetlie Collection of WWII Propaganda Posters at the Flaten Art Museum.">
+    <meta name="twitter:image" content="https://the-making-known.com/preview.jpeg">
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+    <link rel="favicon" sizes="36x36" href="img/icon/favicon-36x36.png">
+    <link rel="favicon" sizes="48x48" href="img/icon/favicon-48x48.png">
+    <link rel="favicon" sizes="57x57" href="img/icon/favicon-57x57.png">
+    <link rel="favicon" sizes="60x60" href="img/icon/favicon-60x60.png">
+    <link rel="favicon" sizes="72x72" href="img/icon/favicon-72x72.png">
+    <link rel="favicon" sizes="76x76" href="img/icon/favicon-76x76.png">
+    <link rel="favicon" sizes="96x96" href="img/icon/favicon-96x96.png">
+    <link rel="favicon" sizes="114x114" href="img/icon/favicon-114x114.png">
+    <link rel="favicon" sizes="120x120" href="img/icon/favicon-120x120.png">
+    <link rel="favicon" sizes="144x144" href="img/icon/favicon-144x144.png">
+    <link rel="favicon" sizes="152x152" href="img/icon/favicon-152x152.png">
+    <link rel="favicon" sizes="180x180" href="img/icon/favicon-180x180.png">
+    <link rel="favicon" sizes="192x192" href="img/icon/favicon-192x192.png">
+
+    <link rel="stylesheet" href="/src/known.css" />
+
+    <link rel="preload" href="img/title-jane.png" as="image" />
+    <link rel="preload" href="img/title-dianna.png" as="image" />
+    <link rel="preload" href="img/title-paul.png" as="image" />
+
+    <title>The Making Known</title>
   </head>
-  <body class="bg-neutral-800 text-gray-100">
-    <div
-      id="app"
-      class="flex flex-col place-items-center mx-auto text-center">
-    </div>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
